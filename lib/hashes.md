@@ -5,40 +5,52 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 
 # What is a Hash?
 
-Replace me with your response...
+An unordered, object-indexed collection of object. They ordered by a key-value pair
 
 # What are some examples of information that would be Hashes as opposed to some other data type?
 
-Replace me with your response...
+When you want to store 
 
 # How are Hashes and Arrays similar? How are they different?
 
-Replace me with your response...
+Hashes and Arrays stores a collection of objects
+
+Arrays use order for assignement
+Hashes use lables for assignment 
 
 # How do you retrieve a particular value from a Hash?
 
-Replace me with your response...
-
+name = {"first" => "jay", "last" => "bernal"}
+name ["first"] #=> jay
+    
 # How do you add information to a Hash?
 
-Replace me with your response...
+name = {"first" => "jay", "last" => "bernal"}
+name["middle"] = "Julio"
 
 # How would you perform an operation on every element inside a Hash?
 
-Replace me with your response...
+name.each {|x, y| puts x.capitalize, y.upcase}
 
 # How would you change the value of a particular element in a Hash?
 
-Replace me with your response...
+name = {"first" => "jay", "last" => "bernal"}
+name["middle"] = "Julio"
+name["first"] = "Javier"
 
 # How do you delete an element from a Hash?
 
-Replace me with your response...
+   name.delete("first")
+=> "Javier"
+   name
+=> {"last"=>"bernal", "middle"=>"Julio"}
 
 # What happens if you try to retrieve an element from a Hash that does not exist in the Hash?
 
-Replace me with your response...
+name = {"first" => "jay", "last" => "bernal"}
+name ["fi"] #=> nil
 
 # How do you determine how many elements are in a Hash?
 
-Replace me with your response...
+name = {"first" => "jay", "last" => "bernal"}
+name.length
