@@ -9,14 +9,14 @@ An unordered, object-indexed collection of object. They ordered by a key-value p
 
 # What are some examples of information that would be Hashes as opposed to some other data type?
 
-When you want to store 
+When you want to store data by it object name (key) and value.  Its really a good way to manange and ID a collection of data by keys and values instead of index values.  
 
 # How are Hashes and Arrays similar? How are they different?
 
 Hashes and Arrays stores a collection of objects
 
-Arrays use order for assignement
-Hashes use lables for assignment 
+Arrays use order-index for assignement - if you want to located items in arrays you must know or search for its index placement in the array
+Hashes use lables (keys and values) for assignment  - by setting the key (the idenifier) you can reference the key for retrieval. 
 
 # How do you retrieve a particular value from a Hash?
 
